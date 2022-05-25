@@ -18,6 +18,7 @@
 
   .foreground-img {
     background-image: url("../../images/colors.jpg");
+    border-right: 3px solid white;
   }
   #slider {
     position: relative;
@@ -33,7 +34,7 @@
       width: 15px;
       border: 1px solid black;
       border-radius: 50%;
-      background-color: aquamarine;
+      background-color: white;
     }
   }
 }
