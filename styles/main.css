@@ -3,7 +3,7 @@
 }
 
 .main-container {
-  border: 2px solid black;
+  border: 2px solid blue;
   width: 900px;
   height: 900px;
   position: relative;
@@ -24,7 +24,7 @@
 
 .main-container .foreground-img {
   background-image: url("../../images/colors.jpg");
-  border-right: 3px solid white;
+  border-right: 3px solid blueviolet;
 }
 
 .main-container #slider {
@@ -33,15 +33,15 @@
   height: 100%;
   -webkit-appearance: none;
   background: transparent;
+  cursor: pointer;
 }
 
 .main-container #slider::-webkit-slider-thumb {
-  cursor: pointer;
   -webkit-appearance: none;
   height: 15px;
   width: 15px;
-  border: 1px solid black;
+  border: 1px solid blue;
   border-radius: 50%;
-  background-color: white;
+  background-color: blueviolet;
 }
 /*# sourceMappingURL=main.css.map */

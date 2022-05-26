@@ -1,5 +1,5 @@
 .main-container {
-  border: 2px solid black;
+  border: 2px solid $main-border-color;
   width: 900px;
   height: 900px;
   position: relative;
@@ -18,7 +18,7 @@
 
   .foreground-img {
     background-image: url("../../images/colors.jpg");
-    border-right: 3px solid white;
+    border-right: 3px solid $detail-color;
   }
   #slider {
     position: relative;
@@ -26,15 +26,15 @@
     height: 100%;
     -webkit-appearance: none;
     background: transparent;
+    cursor: pointer;
 
     &::-webkit-slider-thumb {
-      cursor: pointer;
       -webkit-appearance: none;
       height: 15px;
       width: 15px;
-      border: 1px solid black;
+      border: 1px solid $main-border-color;
       border-radius: 50%;
-      background-color: white;
+      background-color: $detail-color;
     }
   }
 }
